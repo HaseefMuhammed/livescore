@@ -1,0 +1,60 @@
+body{
+  background-image: url("images/bg\ \(10\).png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.head{
+  font-size: 9em;
+  text-transform: uppercase;
+}
+marquee{
+  font-size: 2em;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team{
+  font-size: 7em;
+  text-transform: uppercase;
+}
+.count{
+  font-size: 10em;
+  text-transform: uppercase;
+}
+.team-1{
+  background-color: orange;
+  display: block;
+  animation: box-glow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.team-2{
+  background-color: green;
+  display: block;
+  animation: box-glow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes box-glow{
+  from{
+    border: 5px solid white;
+  }
+  to{
+    border: none;
+  }
+}
+
+.select1{
+  font-size: 10em;
+  background-color: orange;
+  color: white;
+}
+.select2{
+  font-size: 10em;
+  background-color: green;
+  color: white;
+}
